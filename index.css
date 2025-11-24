@@ -1,0 +1,109 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+  color: #333;
+}
+.hero {
+  background: linear-gradient(to right, #b6d7ef, #ffffff);
+  animation: fadeIn 2s ease;
+}
+.arrow img {
+  animation: bounce 2s infinite;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+.service-card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  background-color: #f8f9fa;
+}
+
+@media(max-width:412px)
+{
+  .contect .map iframe
+  {
+    width: 400px;
+    height: 300px;
+  }
+  .contect h3 
+  {
+    padding-top: 90px;
+  }
+
+}
+/* home */
+.home
+{
+  width: 100vw;
+  height: 100vh;
+  line-height: 30px;
+}
+.home h1
+{
+  padding-top: 230px;
+}
+.home a{
+  margin-top: 50px;
+}
+
+/* about */
+.about
+{
+  width: 100vw;
+  height: 100vh;
+  line-height: 25px;
+  background: linear-gradient(to right, #34444f, #ffffff);
+  animation: fadeIn 2s ease;
+}
+h1
+{
+  font-size: 70px;
+  padding-top: 35px;
+}
+.leads
+{
+  padding-top: 30px;
+}
+.about .pra
+{
+  padding: 20px 0;
+} 
+ /* service */
+.service{
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(to right, #81deb1, #ffffff);
+  animation: fadeIn 2s ease;
+}
+.card-data
+{
+  /* gap: 5px; */
+  padding-top: 40px;
+}
+.card{
+  background-color: transparent;
+}
+.card:hover{
+  border: 2px solid black;
+  animation: fadeIn 2s ease;
+}
+
+/* Contact Information */
+
+.contect
+{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, #fbc7b8, #ffffff);
+  animation: fadeIn 2s ease;
+}
+.map
+{
+  padding-top: 10px;
+}

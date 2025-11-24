@@ -1,0 +1,20 @@
+
+.contact-info {
+    background: #f8f9fa;
+    border-top: 2px solid #007bff;
+    margin-top: 50px;
+    padding: 40px 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+.contact-info h3 {
+    color: #007bff;
+    font-weight: 600;
+}
+.contact-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
